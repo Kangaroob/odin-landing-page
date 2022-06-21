@@ -1,0 +1,25 @@
+* {
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 20px 150px;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.header_links {
+    margin: 0 0 0 auto;
+    flex: 1 1 100;
+    text-align: right;
+}
+
+.header_links p {
+    margin: 0 3px;
+    padding: 0 9px;
+    color: #e5e7eb;
+}
