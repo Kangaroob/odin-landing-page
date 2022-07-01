@@ -20,12 +20,49 @@ body {
 
 .top {
     display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.title {
+    max-width: 50%;
+}
+
+.title h1 {
+    color: #f9faf8;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.title p {
+    color: #e5e7eb;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.button {
+    border-radius: 0.5rem;
+    background-color: #3882f6;
+    border-style: none;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    /* color: #e5e7eb; */
+}
+
+.exampleImage {
+    max-width: 50%;
+    flex: 1 1 0;
+    margin: 0 2rem;
+    /* width: 20rem; */
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #e5e7eb;
 }
 
 .header_links {
@@ -40,10 +77,12 @@ body {
 .header_logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color:#f9faf8;
 }
 
 .header_links p {
     margin: 0 3px;
     padding: 0 9px;
     color: #e5e7eb;
+    font-size: 1.125rem;
 }
