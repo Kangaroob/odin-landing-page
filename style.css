@@ -1,6 +1,4 @@
 * {
-    background-color: #1F2937;
-    color: white;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -13,11 +11,13 @@
 }
 
 body {
+    background-color: #1F2937;
     margin: 20px 150px;
     justify-content: space-between;
     min-height: 100vh;
     font-size: 100%;
     font-size: 1rem;
+    color: white;
 }
 
 .header {
@@ -83,9 +83,40 @@ body {
     /* width: 20rem; */
 }
 
+.gallerySection {
+    background-color: #f9faf8;
+    color: #1F2937;
+}
+
+.galleryHeader {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.gallery {
+    justify-content: center;
+    align-items: center;
+}
+
 .galleryContainer {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.galleryItem {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: #f9faf8;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.galleryText {
+    width: 100px;
 }
 
 .footer {
