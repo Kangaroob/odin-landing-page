@@ -4,10 +4,16 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
 body {
     margin: 20px 150px;
-    flex-direction: column;
-    display: flex;
     justify-content: space-between;
     min-height: 100vh;
     font-size: 100%;
@@ -15,11 +21,30 @@ body {
 }
 
 .header {
-    display: flex;
+
+}
+
+.header_links {
+    margin: 0 0 0 auto;
+    flex: 1 1 100;
+    text-align: right;
+}
+
+
+.header_logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#f9faf8;
+}
+
+.header_links p {
+    margin: 0 3px;
+    padding: 0 9px;
+    color: #e5e7eb;
+    font-size: 1.125rem;
 }
 
 .top {
-    display: flex;
     padding: 50px;
     justify-content: center;
 }
@@ -58,31 +83,13 @@ body {
     /* width: 20rem; */
 }
 
-.footer {
+.galleryContainer {
     display: flex;
+    flex-direction: column;
+}
+
+.footer {
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
-}
-
-.header_links {
-    margin: 0 0 0 auto;
-    flex: 1 1 100;
-    text-align: right;
-    display: flex;
-
-}
-
-
-.header_logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:#f9faf8;
-}
-
-.header_links p {
-    margin: 0 3px;
-    padding: 0 9px;
-    color: #e5e7eb;
-    font-size: 1.125rem;
 }
