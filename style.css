@@ -12,7 +12,7 @@
 
 body {
     background-color: #1F2937;
-    margin: 20px 150px;
+    /* margin: 20px 144px; */
     justify-content: space-between;
     min-height: 100vh;
     font-size: 100%;
@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-
+    margin: 20px 144px;
 }
 
 .header_links {
@@ -38,15 +38,17 @@ body {
 }
 
 .header_links p {
-    margin: 0 3px;
-    padding: 0 9px;
+    margin: 0 0 0 6px;
+    padding: 0 0 0 18px;
     color: #e5e7eb;
     font-size: 1.125rem;
 }
 
 .top {
-    padding: 50px;
+    padding: 48px 16px;
     justify-content: center;
+    margin: 0 144px;
+
 }
 
 .title {
@@ -79,13 +81,15 @@ body {
 .exampleImage {
     max-width: 50%;
     flex: 1 1 0;
-    margin: 0 2rem;
+    margin-left: 2rem;
+    /* margin-right: 1rem; */
     /* width: 20rem; */
 }
 
 .gallerySection {
     background-color: #f9faf8;
     color: #1F2937;
+    padding-bottom: 80px;
 }
 
 .galleryHeader {
