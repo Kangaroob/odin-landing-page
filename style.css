@@ -75,7 +75,8 @@ body {
     padding: 0.5rem 2rem;
     margin: 1rem 0;
     font-weight: bold;
-    /* color: #e5e7eb; */
+    color: #e5e7eb;
+    font-size: 1.25rem;
 }
 
 .exampleImage {
