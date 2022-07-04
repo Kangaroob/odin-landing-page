@@ -47,7 +47,7 @@ body {
 .top {
     padding: 48px 16px;
     justify-content: center;
-    margin: 0 144px;
+    margin: 0 144px 64px 144px;
 
 }
 
@@ -154,7 +154,7 @@ body {
 .bottomPanel {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 60px 120px;
+    padding: 40px 120px;
     width: 100%;
     justify-content: center;
     gap: 120px;
