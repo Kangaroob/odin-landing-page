@@ -132,7 +132,7 @@ body {
 .quoteSection {
     background-color: #e5e7eb;
     color: #1F2937;
-    padding: 160px;
+    padding: 160px 200px;
     font-size: 2.5rem;
     font-style: italic;
     font-weight: 300;
@@ -148,7 +148,7 @@ body {
 
 .bottomSection {
     background-color: #f9faf8;
-    padding: 120px 80px;
+    padding: 120px 160px;
 }
 
 .bottomPanel {
@@ -187,4 +187,5 @@ body {
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
+    padding: 28px 0 20px 0;
 }
