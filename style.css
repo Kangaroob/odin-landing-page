@@ -102,7 +102,7 @@ body {
 
 .gallery {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .galleryContainer {
