@@ -99,9 +99,9 @@ body {
     text-decoration: none;
 }
 
-.exampleImage {
+.exampleImage {;
     max-width: 50%;
-    flex: 1 1 0;
+    flex: 1 1 auto;
     margin-left: 2rem;
     /* margin-right: 1rem; */
     /* width: 20rem; */
