@@ -103,6 +103,8 @@ body {
     max-width: 50%;
     flex: 1 1 auto;
     margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
     /* margin-right: 1rem; */
     /* width: 20rem; */
     border-radius: 2rem;
