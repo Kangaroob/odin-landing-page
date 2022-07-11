@@ -10,6 +10,16 @@
     flex-direction: column;
 }
 
+.linkStyle:visited,
+.linkStyle:link {
+    color: inherit;
+}
+
+.superScript {
+    vertical-align: super;
+    font-size: 0.75em;
+}
+
 body {
     background-color: #1F2937;
     /* margin: 20px 144px; */
@@ -68,7 +78,7 @@ body {
     margin: 0;
 }
 
-.button {
+.assignmentButton {
     border-radius: 0.5rem;
     background-color: #3882f6;
     border-style: none;
@@ -77,6 +87,12 @@ body {
     font-weight: bold;
     color: #e5e7eb;
     font-size: 1.25rem;
+}
+
+.assignmentLink:visited,
+.assignmentLink:link {
+    color: #f9faf8;
+    text-decoration: none;
 }
 
 .exampleImage {
