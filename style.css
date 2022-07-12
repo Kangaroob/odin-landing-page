@@ -35,13 +35,14 @@ body {
 }
 
 .header {
+    box-sizing: border-box;
     margin: 20px auto;
-    padding-top: 8px;
+    padding: 8px 48px 0 48px;
     max-width: 100%;
 }
 
 .header_links {
-    width: 600px;
+    width: 800px;
     max-width: 50%;
     margin: 0 0 0 auto;
     /* flex: 1 1 100; */
@@ -51,7 +52,7 @@ body {
 
 
 .header_logo {
-    width: 600px;
+    width: 800px;
     max-width: 50%;
     font-size: 1.5rem;
     font-weight: bold;
@@ -67,10 +68,9 @@ body {
 }
 
 .top {
-    padding: 2.25rem 1rem;
+    padding: 2.25rem 48px;
     justify-content: center;
     margin: 0 auto 64px auto;
-
 }
 
 .title {
@@ -184,19 +184,23 @@ body {
 }
 
 .quoteText {
+    max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
 
 .bottomSection {
     background-color: #f9faf8;
-    padding: 120px 160px;
+    padding: 120px 100px;
+    justify-content: center;
 }
 
 .bottomPanel {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 40px 120px;
-    width: 100%;
+    width: 1200px;
+    max-width: 100%;
     justify-content: center;
     gap: 120px;
     align-items: center;
