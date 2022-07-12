@@ -35,20 +35,28 @@ body {
 }
 
 .header {
-    margin: 20px 144px;
+    margin: 20px auto;
+    padding-top: 8px;
+    max-width: 100%;
 }
 
 .header_links {
+    width: 600px;
+    max-width: 50%;
     margin: 0 0 0 auto;
-    flex: 1 1 100;
+    /* flex: 1 1 100; */
     text-align: right;
+    justify-content: end;
 }
 
 
 .header_logo {
+    width: 600px;
+    max-width: 50%;
     font-size: 1.5rem;
     font-weight: bold;
     color:#f9faf8;
+    margin-left: auto;
 }
 
 .header_links p {
@@ -59,13 +67,14 @@ body {
 }
 
 .top {
-    padding: 48px 16px;
+    padding: 2.25rem 1rem;
     justify-content: center;
-    margin: 0 144px 64px 144px;
+    margin: 0 auto 64px auto;
 
 }
 
 .title {
+    width: 420px;
     max-width: 50%;
 }
 
@@ -73,6 +82,7 @@ body {
     color: #f9faf8;
     font-size: 3rem;
     margin: 0;
+    margin-top: 38px;
     font-weight: bolder;
 }
 
@@ -100,8 +110,9 @@ body {
 }
 
 .exampleImage {
+    width: 420px;
     max-width: 50%;
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
     margin-left: 2rem;
     margin-top: auto;
     margin-bottom: auto;
