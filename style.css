@@ -125,7 +125,8 @@ body {
 .gallerySection {
     background-color: #f9faf8;
     color: #1F2937;
-    padding-bottom: 7.5rem;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
 }
 
 .galleryHeader {
@@ -135,6 +136,7 @@ body {
 }
 
 .gallery {
+    margin-top: 0.75rem;
     justify-content: center;
     align-items: flex-start;
 }
