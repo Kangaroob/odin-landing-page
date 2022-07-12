@@ -180,6 +180,11 @@ body {
     align-self: flex-end;
     margin-right: 4rem;
     font-style: normal;
+    margin: auto;
+}
+
+.quoteText {
+    margin: auto;
 }
 
 .bottomSection {
