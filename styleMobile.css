@@ -112,7 +112,7 @@ body {
     font-weight: bold;
     color: #e5e7eb;
     font-size: 1.25rem;
-    /* justify-self: center; */
+    justify-self: center;
 }
 
 #assignmentLink:visited,
