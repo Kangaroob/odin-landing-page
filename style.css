@@ -238,3 +238,7 @@ body {
     color: #e5e7eb;
     padding: 1.75rem 0 1.125rem 0;
 }
+
+#viewStyleToggle {
+    text-decoration: underline;
+}
