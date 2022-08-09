@@ -111,8 +111,11 @@ body {
     margin: 1rem 0;
     font-weight: bold;
     color: #e5e7eb;
-    font-size: 1.25rem;
     justify-self: center;
+}
+
+#assignmentLink {
+    font-size: 1.5rem;
 }
 
 #assignmentLink:visited,

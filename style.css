@@ -102,6 +102,9 @@ body {
     margin: 1rem 0;
     font-weight: bold;
     color: #e5e7eb;
+}
+
+#assignmentLink {
     font-size: 1.25rem;
 }
 
