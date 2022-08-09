@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="style" rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./ExampleImageIMade.svg">
-
     <title>Landing Page</title>
+    <script src="viewSetter.js" defer></script>
 </head>
 <body class="flex column">
     <div class="header flex">
-        <span class="header_logo">Hello World!</span>
-        <div class="flex header_links">
+        <span id="header_logo">Hello World!</span>
+        <div id="header_links" class="flex">
             <p>these</p>
             <p>links</p>
             <p>go</p>
             <p>nowhere</p>
         </div>
     </div>
-    <div class="top flex">
-        <div class="title">
+    <div id="top" class="flex wrap">
+        <div id="title" class="flex column">
             <h1><strong>This website is awesome</strong></h1>
             <p>This is my landing page assignment made while going 
                     through the ODIN Project's Foundations course</p>
-            <button class="assignmentButton"><a class="assignmentLink" href="https://www.theodinproject.com/lessons/foundations-landing-page">Assignment Page</a></button>
+            <button id="assignmentButton"><a class="id" href="https://www.theodinproject.com/lessons/foundations-landing-page">Assignment Page</a></button>
         </div>
-        <img alt="An example image I made" class="exampleImage" src="./ExampleImageIMade.svg">
+        <img id="exampleImage" alt="An example image I made" src="./ExampleImageIMade.svg">
     </div>
-    <div class="gallerySection flex column">
-        <h2 class="galleryHeader">Some projects I've made</h2>
-        <div class="gallery flex">
+    <div id="gallerySection" class="flex column">
+        <h2 id="galleryHeader">Some projects I've made</h2>
+        <div id="gallery" class="flex wrap">
             <div class="galleryContainer">
                 <img class="galleryItem linkCursor" src="./RecipesImage.png" onclick="window.location.href='https://kaBeech.github.io/odin-recipes';">
                 <p class="galleryText">
@@ -62,31 +62,31 @@
             </div>
         </div>
     </div>
-    <div class="quoteSection flex column">
-        <div class="quoteText">
+    <div id="quoteSection" class="flex column">
+        <div id="quoteText">
                     "If you want to go quickly, go alone. 
                     If you want to go far, go together. We need to go 
                     far, quickly."
         </div>
-        <div class="quoteAttribution">
+        <div id="quoteAttribution">
             -Al Gore, sorta <a class="linkStyle superScript" href="https://www.youtube.com/watch?v=EcdVieLabe0">[1]</a>
         </div>
     </div>
-    <div class="bottomSection flex">
-        <div class="bottomPanel flex">
-            <div class="bottomText">
-                <div class="bottomHeader">Do you want to sign up?? You 
+    <div id="bottomSection" class="flex">
+        <div id="bottomPanel" class="flex">
+            <div id="bottomText">
+                <div id="bottomHeader">Do you want to sign up?? You 
                         can click that button but it doesn't do 
                         anything yet!</div>
-                <div class="bottomParagraph">Sign up by
+                <div id="bottomParagraph">Sign up by
                          clicking that button right over there!</div>
             </div>
-            <div class="bottomButton flex">
+            <div id="bottomButton" class="flex">
                 Sign Up
             </div>
         </div>
     </div>
-    <div class="footer flex column">
+    <div id="footer" class="flex column">
         <p>Original design template Copyright © The Odin Project 2021 (<a class="linkStyle" href="https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png">source1</a> <a class="linkStyle" href="https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png">source2</a>)</p>
         <p>Code, images, and other additions Copyright © Kyle Beechly 2022</p>
     </div>
